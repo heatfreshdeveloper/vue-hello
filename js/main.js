@@ -1,10 +1,9 @@
 Vue.config.devtools = true;
 
-window.addEventListener("DOMContentLoaded", function () {
     const vueApp = new Vue({
         el: "#app",
         data: {
-            username: "Ciao da vue"
+            username: "alex.bernardi",
+            image: "./img/depositphotos_12070568-stock-photo-fat-pink-sow-sleeps-soundly.jpg"
         }
     });
-});

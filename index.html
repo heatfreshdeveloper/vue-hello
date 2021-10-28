@@ -5,18 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <script src="main.js"></script>
     <title>VueJs</title>
 </head>
 <body>
-    <div>
+    <div id="app">
         <header>
-            <h1>Hello Vue</h1>
+            <h1 :class="username">Hello {{username}}</h1>
+            <img :src="image">
         </header>
-        <main id="app">
-            <input type="text" v-model="username">
-        </main>
+        <main></main>
         <footer></footer>
+        <script src="js/main.js"></script>
     </div>
 </body>
 </html>
